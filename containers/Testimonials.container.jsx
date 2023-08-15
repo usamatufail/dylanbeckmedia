@@ -1,4 +1,4 @@
-import { Animate } from "~/components";
+import { Animate, Zoom } from "~/components";
 
 export const Testimonials = () => {
   return (
@@ -13,48 +13,60 @@ export const Testimonials = () => {
         </div>
 
         <div className="flex flex-col md:grid md:grid-cols-3 items-center justify-center gap-[1.5rem] md:gap-[20px] pb-[20px]">
-          <a
-            href="https://res.cloudinary.com/dfy77jd7z/video/upload/v1692056369/y2mate.com_-_Copy_of_63381f27ae444430ab0fa78b0c2a3ff1_1080p.mp4_x5uhl6.mp4"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Card img="/test1.png" />
-          </a>
-          <a
-            href="https://res.cloudinary.com/dfy77jd7z/video/upload/v1692056370/y2mate.com_-_Copy_of_IMG_3429_1080p.mp4_pyiek5.mp4"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Card img="/test2.png" />
-          </a>
-          <a
-            href="https://res.cloudinary.com/dfy77jd7z/video/upload/v1692056371/y2mate.com_-_69033460903_998CD276_F378_4D24_8CC4_C706A998D599_1080p.mp4_dyniau.mp4"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Card img="/test3.png" />
-          </a>
-          <a
-            href="https://res.cloudinary.com/dfy77jd7z/video/upload/v1692056371/y2mate.com_-_josh_123_1080p.mp4_gcek4q.mp4"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Card img="/test4.png" />
-          </a>
-          <a
-            href="https://res.cloudinary.com/dfy77jd7z/video/upload/v1692056373/Copy_of_IMG_9949.mp4_tdclru.mp4"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Card img="/test5.png" />
-          </a>
-          <a
-            href="https://res.cloudinary.com/dfy77jd7z/video/upload/v1692056373/y2mate.com_-_Copy_of_IMG_8365_480p.mp4_i6wyum.mp4"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Card img="/test6.png" />
-          </a>
+          <Zoom>
+            <a
+              href="https://res.cloudinary.com/dfy77jd7z/video/upload/v1692056369/y2mate.com_-_Copy_of_63381f27ae444430ab0fa78b0c2a3ff1_1080p.mp4_x5uhl6.mp4"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Card img="/test1.png" />
+            </a>
+          </Zoom>
+          <Zoom>
+            <a
+              href="https://res.cloudinary.com/dfy77jd7z/video/upload/v1692056370/y2mate.com_-_Copy_of_IMG_3429_1080p.mp4_pyiek5.mp4"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Card img="/test2.png" />
+            </a>
+          </Zoom>
+          <Zoom>
+            <a
+              href="https://res.cloudinary.com/dfy77jd7z/video/upload/v1692056371/y2mate.com_-_69033460903_998CD276_F378_4D24_8CC4_C706A998D599_1080p.mp4_dyniau.mp4"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Card img="/test3.png" />
+            </a>
+          </Zoom>
+          <Zoom>
+            <a
+              href="https://res.cloudinary.com/dfy77jd7z/video/upload/v1692056371/y2mate.com_-_josh_123_1080p.mp4_gcek4q.mp4"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Card img="/test4.png" />
+            </a>
+          </Zoom>
+          <Zoom>
+            <a
+              href="https://res.cloudinary.com/dfy77jd7z/video/upload/v1692056373/Copy_of_IMG_9949.mp4_tdclru.mp4"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Card img="/test5.png" />
+            </a>
+          </Zoom>
+          <Zoom>
+            <a
+              href="https://res.cloudinary.com/dfy77jd7z/video/upload/v1692056373/y2mate.com_-_Copy_of_IMG_8365_480p.mp4_i6wyum.mp4"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Card img="/test6.png" />
+            </a>
+          </Zoom>
         </div>
       </section>
       <div className="w-full h-[2px] bg-[#0FF]" />
